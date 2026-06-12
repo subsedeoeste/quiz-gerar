@@ -158,7 +158,7 @@
       <p class="logo-sub">O Bem Faz Bem</p>
     </div>
     <h1>Quiz GERAR 🚀</h1>
-    <p class="subtitle">Teste seus conhecimentos sobre oportunidades, aprendizagem, estágio e primeiro emprego.</p>
+    <p class="subtitle">Teste seus conhecimentos sobre oportunidades, aprendizagem e estágio.</p>
     <p class="description">São 15 perguntas rápidas e didáticas. Ao final, descubra o quanto você já sabe sobre o mundo do trabalho!</p>
     <button class="btn-primary" onclick="startQuiz()">✦ Começar Quiz</button>
   </div>
@@ -314,10 +314,10 @@ function showResult() {
   document.getElementById('score-num').textContent = score;
   document.getElementById('score-lbl').textContent = 'de ' + perguntas.length;
   const msg = score <= 5
-    ? 'Você está começando agora, e tudo bem! Continue acompanhando a GERAR para conhecer mais oportunidades.'
+    ? 'Você está começando agora, e tudo bem! Continue acompanhando a GERAR para se preparar cada vez mais para o mundo do trabalho.'
     : score <= 10
-      ? 'Muito bem! Você já sabe bastante coisa, mas ainda pode aprender mais sobre o mundo do trabalho.'
-      : 'Parabéns! Você está por dentro das oportunidades e preparado para seguir acompanhando nossas vagas. 🎉';
+      ? 'Muito bem! Você já conhece bastante sobre o tema, mas ainda tem espaço para aprender mais e se desenvolver.'
+      : 'Parabéns! Você está por dentro das oportunidades de aprendizagem e estágio, e já demonstra preparo para entrar no mercado de trabalho. 🎉';
   document.getElementById('result-msg').textContent = msg;
   show('screen-result');
 }
